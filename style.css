@@ -1,0 +1,65 @@
+/*
+# COLORS
+WHITE - #F5F7F8
+YELLOW - #F4CE14
+GREY - #495E57
+BLACK - #45474B
+*/
+
+* {
+    font-family: "Poppins";
+    color: rgb(240, 240, 240);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2% 10%;
+    background-color: #2e2e2e;
+}
+
+h1 {font-size: 2rem; color: #F4CE14;}
+
+h2 {font-size: 1.5rem;}
+
+h3 {font-size: 1.35rem;}
+
+ul {list-style: none;}
+
+li {font-weight: 500; font-size: 1.25rem;}
+
+.box {
+    margin: 32px 0px;
+    border: solid 8px #F4CE14;
+    border-radius: 25px;
+    padding: 12px 24px;
+    background-color: #45474B;
+}
+
+.answear {
+    background-color: #495E57;
+    color: #495E57;
+    width: 800px;
+    padding: 4px;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    transition: all ease-in-out 0.5s;
+}
+
+.answear:hover {
+    background-color: #45474B;
+    color: #F4CE14;
+    transition: all ease-in-out 0.5s;
+}
+
+.code {
+    color: rgb(60, 255, 96);
+}
+
+.code-comment {
+    color: rgb(60, 255, 209);
+}

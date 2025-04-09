@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 1</title>
+</head>
+<body>
+    <!--
+        # TREŚĆ
+        Jaka będzie zawartość paragrafu po trzykrotnym kliknięciu?
+        Odpowiedź: 1
+    -->
+    <p id="txt" onclick="test();">27</p>
+    <script>
+        function test() {
+            var x = document.getElementById("txt");
+            var n = x.innerHTML;
+            x.innerHTML = n/3;
+        }
+    </script>
+</body>
+</html>
