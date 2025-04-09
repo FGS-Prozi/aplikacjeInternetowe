@@ -42,7 +42,8 @@ li {font-weight: 500; font-size: 1.25rem;}
 .answear {
     background-color: #495E57;
     color: #495E57;
-    width: 800px;
+    min-width: fit-content;
+    width: 90%;
     padding: 4px;
     font-weight: 700;
     border-radius: 20px;
