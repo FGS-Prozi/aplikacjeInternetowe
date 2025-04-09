@@ -9,6 +9,7 @@ BLACK - #45474B
 * {
     font-family: "Poppins";
     color: rgb(240, 240, 240);
+    word-break: break-all;
 }
 
 html, body {
